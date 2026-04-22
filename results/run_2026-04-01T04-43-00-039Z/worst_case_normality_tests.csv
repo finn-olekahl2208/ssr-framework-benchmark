@@ -1,0 +1,20 @@
+Profil,ProfilKey,Metrik,Kestrel-Kit (Prototyp) p-Wert,Kestrel-Kit (Prototyp) normalverteilt,Legacy (Baseline 1) p-Wert,Legacy (Baseline 1) normalverteilt,Legacy (Baseline 2) p-Wert,Legacy (Baseline 2) normalverteilt
+Worst-Case (Stress),worst_case,First Contentful Paint,0.0,Nein,0.0,Nein,0.0,Nein
+Worst-Case (Stress),worst_case,Largest Contentful Paint,0.0,Nein,0.0,Nein,0.0,Nein
+Worst-Case (Stress),worst_case,Time to Interactive,0.0,Nein,0.0,Nein,0.0,Nein
+Worst-Case (Stress),worst_case,Total Blocking Time,0.0,Nein,0.0,Nein,0.0,Nein
+Worst-Case (Stress),worst_case,Cumulative Layout Shift,1.0,Ja,1.0,Ja,0.0,Nein
+Worst-Case (Stress),worst_case,Speed Index,0.0,Nein,0.0,Nein,0.0,Nein
+Worst-Case (Stress),worst_case,JS-Ausführungszeit,0.0021,Nein,0.7805,Ja,0.0,Nein
+Worst-Case (Stress),worst_case,JS Heap (Used),0.1026,Ja,0.0023,Nein,0.0,Nein
+Worst-Case (Stress),worst_case,Payload (gesamt),0.0,Nein,0.0785,Ja,0.0,Nein
+Worst-Case (Stress),worst_case,HTTP-Requests,0.1945,Ja,1.0,Ja,0.0,Nein
+Worst-Case (Stress),worst_case,HTML-Dokument,0.0085,Nein,0.0019,Nein,0.0002,Nein
+Worst-Case (Stress),worst_case,JS-Payload,0.8282,Ja,0.0119,Nein,0.0221,Nein
+Worst-Case (Stress),worst_case,API-Payload (Fetch+XHR),0.0,Nein,0.0,Nein,0.0,Nein
+Worst-Case (Stress),worst_case,CSS-Payload,0.0001,Nein,0.0003,Nein,0.0001,Nein
+Worst-Case (Stress),worst_case,Statische Assets,0.0,Nein,0.0,Nein,0.0,Nein
+Worst-Case (Stress),worst_case,Time to First Byte,0.0,Nein,0.0,Nein,0.0,Nein
+Worst-Case (Stress),worst_case,DOMContentLoaded,0.0,Nein,0.0,Nein,0.0,Nein
+Worst-Case (Stress),worst_case,DOM Interactive,0.0,Nein,0.0,Nein,0.0,Nein
+Worst-Case (Stress),worst_case,Lighthouse Score,0.0,Nein,0.0,Nein,0.0002,Nein

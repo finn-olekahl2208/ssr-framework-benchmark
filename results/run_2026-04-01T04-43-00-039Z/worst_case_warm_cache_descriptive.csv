@@ -1,0 +1,14 @@
+Profil,ProfilKey,Metrik,Einheit,Hypothese,Kestrel-Kit (Prototyp) n,Kestrel-Kit (Prototyp) Median,Kestrel-Kit (Prototyp) IQR,Kestrel-Kit (Prototyp) Mean,Kestrel-Kit (Prototyp) SD,Kestrel-Kit (Prototyp) Min,Kestrel-Kit (Prototyp) Max,Kestrel-Kit (Prototyp) CV%,Legacy (Baseline 1) n,Legacy (Baseline 1) Median,Legacy (Baseline 1) IQR,Legacy (Baseline 1) Mean,Legacy (Baseline 1) SD,Legacy (Baseline 1) Min,Legacy (Baseline 1) Max,Legacy (Baseline 1) CV%,Legacy (Baseline 2) n,Legacy (Baseline 2) Median,Legacy (Baseline 2) IQR,Legacy (Baseline 2) Mean,Legacy (Baseline 2) SD,Legacy (Baseline 2) Min,Legacy (Baseline 2) Max,Legacy (Baseline 2) CV%
+Worst-Case (Stress),worst_case,Warm-Cache Payload (gesamt),KB,H1,50,78.71,97.72,103.43,102.07,11.33,606.32,98.7,50,39.55,1.36,40.4,1.58,39.43,48.14,3.9,50,39.22,1.32,39.44,0.86,38.49,42.02,2.2
+Worst-Case (Stress),worst_case,Warm-Cache Netzwerk-Payload,KB,H1,50,78.71,97.72,103.43,102.07,11.33,606.32,98.7,50,39.55,1.36,40.4,1.58,39.43,48.14,3.9,50,39.22,1.32,39.44,0.86,38.49,42.02,2.2
+Worst-Case (Stress),worst_case,Warm-Cache Requests (gesamt),,H1,50,125.0,4.75,125.66,4.26,119.0,138.0,3.4,50,94.0,0.0,94.06,0.42,94.0,97.0,0.5,50,100.0,0.0,100.0,0.0,100.0,100.0,0.0
+Worst-Case (Stress),worst_case,Warm-Cache Netzwerk-Requests,,H1,50,119.0,4.75,119.56,4.33,113.0,132.0,3.6,50,92.0,0.0,92.06,0.42,92.0,95.0,0.5,50,96.0,0.0,96.0,0.0,96.0,96.0,0.0
+Worst-Case (Stress),worst_case,Gecachte Requests,,H1,50,6.0,0.0,6.1,0.71,6.0,11.0,11.6,50,2.0,0.0,2.0,0.0,2.0,2.0,0.0,50,4.0,0.0,4.0,0.0,4.0,4.0,0.0
+Worst-Case (Stress),worst_case,Cache-Hit-Rate,%,H1,50,4.8,0.2,4.86,0.59,4.3,8.8,12.1,50,2.1,0.0,2.1,0.0,2.1,2.1,0.0,50,4.0,0.0,4.0,0.0,4.0,4.0,0.0
+Worst-Case (Stress),worst_case,Payload-Reduktion (Cold→Warm),%,H1,50,93.45,9.23,91.4,7.81,59.2,99.2,8.5,50,95.3,0.1,95.2,0.18,94.3,95.3,0.2,50,95.5,0.1,95.43,0.1,95.1,95.5,0.1
+Worst-Case (Stress),worst_case,Warm-Cache Navigationszeit,ms,H1,50,3304.5,1203.25,4074.94,2745.02,2293.0,14262.0,67.4,50,1361.5,127.25,1437.88,299.58,1265.0,3328.0,20.8,50,1365.0,99.5,1408.14,170.06,1239.0,2337.0,12.1
+Worst-Case (Stress),worst_case,Warm-Cache TTFB,ms,H1,50,0.0,0.1,0.05,0.07,0.0,0.3,125.3,50,238.15,72.28,277.3,114.4,175.7,789.8,41.3,50,117.4,70.5,160.08,104.42,81.4,656.5,65.2
+Worst-Case (Stress),worst_case,Warm-Cache DOMContentLoaded,ms,H2,50,85.5,31.12,93.98,43.34,59.8,317.2,46.1,50,348.0,98.9,378.83,115.4,259.8,873.4,30.5,50,255.25,72.95,285.16,116.18,172.8,862.3,40.7
+Worst-Case (Stress),worst_case,Warm HTML-Dokument,KB,H1,50,0.4,0.0,0.41,0.02,0.4,0.47,5.6,50,18.48,0.06,18.48,0.04,18.42,18.57,0.2,50,17.28,0.02,17.29,0.03,17.24,17.37,0.2
+Worst-Case (Stress),worst_case,Warm JS-Payload,KB,H2,50,1.37,1.38,1.48,1.29,0.0,5.49,86.9,50,1.85,1.37,2.58,1.13,1.85,6.65,43.8,50,2.54,1.37,2.74,0.86,1.85,5.27,31.3
+Worst-Case (Stress),worst_case,Warm API-Payload,KB,H1,50,16.9,0.52,16.12,2.1,10.93,17.45,13.0,50,19.17,0.01,19.17,0.04,19.16,19.41,0.2,50,19.42,0.01,19.42,0.01,19.4,19.42,0.0

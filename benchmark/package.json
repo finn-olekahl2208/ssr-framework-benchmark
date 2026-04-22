@@ -1,0 +1,18 @@
+{
+  "name": "ssr-benchmark-suite",
+  "version": "1.0.0",
+  "description": "Quantitative Benchmark-Suite für die Bachelorthesis: Evaluierung moderner SSR-Frameworks",
+  "author": "Finn-Ole Kahl",
+  "type": "module",
+  "scripts": {
+    "benchmark": "node benchmark.mjs",
+    "benchmark:cable": "THROTTLE_PROFILE=cable node benchmark.mjs",
+    "benchmark:4g": "THROTTLE_PROFILE=4g node benchmark.mjs",
+    "benchmark:worst_case": "THROTTLE_PROFILE=worst_case node benchmark.mjs"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0",
+    "lighthouse": "^12.0.0",
+    "csv-writer": "^1.6.0"
+  }
+}

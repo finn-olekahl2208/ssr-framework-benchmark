@@ -1,0 +1,22 @@
+{
+  "title": "Evaluierung eines modernen Rendering-Frameworks — Replication Package",
+  "description": "Vollständige Benchmark-Suite, statistisches Auswertungsskript und Rohdaten zur Bachelorarbeit.",
+  "creators": [
+    {
+      "name": "Kahl, Finn-Ole",
+      "affiliation": "Berufliche Hochschule Hamburg (BHH)"
+    }
+  ],
+  "keywords": [
+    "Web Performance",
+    "Server-Side Rendering",
+    "SSR",
+    "Benchmark",
+    "Lighthouse",
+    "Mann-Whitney-U",
+    "Bachelor Thesis"
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open"
+}

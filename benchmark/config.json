@@ -1,0 +1,56 @@
+{
+  "scenarios": {
+    "prototype": {
+      "label": "Kestrel-Kit (Prototyp)",
+      "url": "https://develop.otto.de/gefunden-auf-otto/",
+      "auth": true
+    },
+    "baseline": {
+      "label": "Legacy (Baseline 1)",
+      "url": "https://develop.otto.de/customer-contact-details-invoiceaddress/change",
+      "auth": true
+    },
+    "baseline2": {
+      "label": "Legacy (Baseline 2)",
+      "url": "https://develop.otto.de/contact-contact/support",
+      "auth": true
+    }
+  },
+  "measurement": {
+    "runsPerScenario": 50,
+    "warmupRuns": 3,
+    "cooldownMs": 2000,
+    "viewportWidth": 1920,
+    "viewportHeight": 1080
+  },
+  "throttling": {
+    "profiles": {
+      "cable": {
+        "label": "Cable (Referenz)",
+        "downloadThroughput": 5000000,
+        "uploadThroughput": 5000000,
+        "latency": 28
+      },
+      "4g": {
+        "label": "4G (Mobil)",
+        "downloadThroughput": 4000000,
+        "uploadThroughput": 3000000,
+        "latency": 170
+      },
+      "worst_case": {
+        "label": "Worst-Case (Stress)",
+        "downloadThroughput": 50000,
+        "uploadThroughput": 50000,
+        "latency": 400
+      }
+    }
+  },
+  "auth": {
+    "loginUrl": "https://develop.otto.de/customer-identity/login",
+    "email": "-",
+    "password": "-"
+  },
+  "output": {
+    "directory": "../results"
+  }
+}

@@ -1,0 +1,20 @@
+Profil,ProfilKey,Metrik,Kestrel-Kit (Prototyp) p-Wert,Kestrel-Kit (Prototyp) normalverteilt,Legacy (Baseline 1) p-Wert,Legacy (Baseline 1) normalverteilt,Legacy (Baseline 2) p-Wert,Legacy (Baseline 2) normalverteilt
+4G (Mobil),4g,First Contentful Paint,0.0,Nein,0.0,Nein,0.0,Nein
+4G (Mobil),4g,Largest Contentful Paint,0.0,Nein,0.0,Nein,0.0,Nein
+4G (Mobil),4g,Time to Interactive,0.0,Nein,0.0,Nein,0.0,Nein
+4G (Mobil),4g,Total Blocking Time,0.0,Nein,0.0,Nein,0.0,Nein
+4G (Mobil),4g,Cumulative Layout Shift,1.0,Ja,0.0,Nein,0.0,Nein
+4G (Mobil),4g,Speed Index,0.0,Nein,0.0,Nein,0.0,Nein
+4G (Mobil),4g,JS-Ausführungszeit,0.8243,Ja,0.3505,Ja,0.1975,Ja
+4G (Mobil),4g,JS Heap (Used),0.0,Nein,0.0,Nein,0.0,Nein
+4G (Mobil),4g,Payload (gesamt),0.0,Nein,0.0005,Nein,0.0011,Nein
+4G (Mobil),4g,HTTP-Requests,0.0293,Nein,0.0,Nein,0.0,Nein
+4G (Mobil),4g,HTML-Dokument,0.0033,Nein,0.0047,Nein,0.0005,Nein
+4G (Mobil),4g,JS-Payload,0.2655,Ja,0.8316,Ja,0.8463,Ja
+4G (Mobil),4g,API-Payload (Fetch+XHR),0.0,Nein,0.0,Nein,0.0,Nein
+4G (Mobil),4g,CSS-Payload,0.0,Nein,0.0057,Nein,0.0003,Nein
+4G (Mobil),4g,Statische Assets,0.0,Nein,0.0,Nein,0.0,Nein
+4G (Mobil),4g,Time to First Byte,0.0,Nein,0.0,Nein,0.0,Nein
+4G (Mobil),4g,DOMContentLoaded,0.0,Nein,0.0,Nein,0.5865,Ja
+4G (Mobil),4g,DOM Interactive,0.0,Nein,0.0,Nein,0.5352,Ja
+4G (Mobil),4g,Lighthouse Score,0.0,Nein,1.0,Ja,0.0,Nein

@@ -1,0 +1,79 @@
+Profil,ProfilKey,Vergleich,Metrik,Hypothese,Median Kestrel-Kit (Prototyp),Median Legacy (Baseline 1),Differenz (abs),Differenz (%),U-Statistik,p-Wert,Signifikant,Effektstärke (r),Effekt,95%-CI unten,95%-CI oben,Vorteil,Median Legacy (Baseline 2)
+Cable (Referenz),cable,prototype_vs_baseline,Warm-Cache Payload (gesamt),H1,91.84,40.92,50.92,124.4,2122.0,0.000000,Ja,-0.698,groß,28.78,98.9,Legacy (Baseline 1),
+Cable (Referenz),cable,prototype_vs_baseline,Warm-Cache Netzwerk-Payload,H1,91.84,40.92,50.92,124.4,2122.0,0.000000,Ja,-0.698,groß,28.78,98.9,Legacy (Baseline 1),
+Cable (Referenz),cable,prototype_vs_baseline,Warm-Cache Requests (gesamt),H1,125.5,94.0,31.5,33.5,2500.0,0.000000,Ja,-1.0,groß,30.0,34.0,Legacy (Baseline 1),
+Cable (Referenz),cable,prototype_vs_baseline,Warm-Cache Netzwerk-Requests,H1,119.5,92.0,27.5,29.9,2500.0,0.000000,Ja,-1.0,groß,26.0,30.0,Legacy (Baseline 1),
+Cable (Referenz),cable,prototype_vs_baseline,Gecachte Requests,H1,6.0,2.0,4.0,200.0,2500.0,0.000000,Ja,-1.0,groß,4.0,4.0,Kestrel-Kit (Prototyp),
+Cable (Referenz),cable,prototype_vs_baseline,Cache-Hit-Rate,H1,4.8,2.1,2.7,128.6,2500.0,0.000000,Ja,-1.0,groß,2.6,2.7,Kestrel-Kit (Prototyp),
+Cable (Referenz),cable,prototype_vs_baseline,Payload-Reduktion (Cold→Warm),H1,92.2,95.1,-2.9,-3.0,735.0,0.000373,Ja,0.412,mittel,-7.05,-0.55,Legacy (Baseline 1),
+Cable (Referenz),cable,prototype_vs_baseline,Warm-Cache Navigationszeit,H1,2813.5,1323.5,1490.0,112.6,2432.0,0.000000,Ja,-0.946,groß,1282.5,1796.5,Legacy (Baseline 1),
+Cable (Referenz),cable,prototype_vs_baseline,Warm-Cache TTFB,H1,0.05,195.25,-195.2,-100.0,0.0,0.000000,Ja,1.0,groß,-218.15,-181.55,Kestrel-Kit (Prototyp),
+Cable (Referenz),cable,prototype_vs_baseline,Warm-Cache DOMContentLoaded,H2,66.3,301.4,-235.1,-78.0,0.0,0.000000,Ja,1.0,groß,-256.2,-218.3,Kestrel-Kit (Prototyp),
+Cable (Referenz),cable,prototype_vs_baseline,Warm HTML-Dokument,H1,0.4,18.45,-18.05,-97.8,0.0,0.000000,Ja,1.0,groß,-18.06,-18.03,Kestrel-Kit (Prototyp),
+Cable (Referenz),cable,prototype_vs_baseline,Warm JS-Payload,H2,0.68,2.33,-1.65,-70.8,401.0,0.000000,Ja,0.679,groß,-2.47,-1.1,Kestrel-Kit (Prototyp),
+Cable (Referenz),cable,prototype_vs_baseline,Warm API-Payload,H1,16.89,19.1,-2.21,-11.6,0.0,0.000000,Ja,1.0,groß,-2.33,-2.14,Kestrel-Kit (Prototyp),
+Cable (Referenz),cable,prototype_vs_baseline2,Warm-Cache Payload (gesamt),H1,91.84,,53.26,138.1,2137.0,0.000000,Ja,-0.71,groß,32.39,101.62,Legacy (Baseline 2),38.58
+Cable (Referenz),cable,prototype_vs_baseline2,Warm-Cache Netzwerk-Payload,H1,91.84,,53.26,138.1,2137.0,0.000000,Ja,-0.71,groß,32.39,101.62,Legacy (Baseline 2),38.58
+Cable (Referenz),cable,prototype_vs_baseline2,Warm-Cache Requests (gesamt),H1,125.5,,29.5,30.7,2500.0,0.000000,Ja,-1.0,groß,28.5,32.0,Legacy (Baseline 2),96.0
+Cable (Referenz),cable,prototype_vs_baseline2,Warm-Cache Netzwerk-Requests,H1,119.5,,25.5,27.1,2500.0,0.000000,Ja,-1.0,groß,24.5,28.0,Legacy (Baseline 2),94.0
+Cable (Referenz),cable,prototype_vs_baseline2,Gecachte Requests,H1,6.0,,4.0,200.0,2500.0,0.000000,Ja,-1.0,groß,4.0,4.0,Kestrel-Kit (Prototyp),2.0
+Cable (Referenz),cable,prototype_vs_baseline2,Cache-Hit-Rate,H1,4.8,,2.7,128.6,2500.0,0.000000,Ja,-1.0,groß,2.6,2.7,Kestrel-Kit (Prototyp),2.1
+Cable (Referenz),cable,prototype_vs_baseline2,Payload-Reduktion (Cold→Warm),H1,92.2,,-3.3,-3.5,641.0,0.000025,Ja,0.487,mittel,-7.4,-1.0,Legacy (Baseline 2),95.5
+Cable (Referenz),cable,prototype_vs_baseline2,Warm-Cache Navigationszeit,H1,2813.5,,1607.0,133.2,2498.0,0.000000,Ja,-0.998,groß,1396.0,1914.5,Legacy (Baseline 2),1206.5
+Cable (Referenz),cable,prototype_vs_baseline2,Warm-Cache TTFB,H1,0.05,,-92.05,-99.9,0.0,0.000000,Ja,1.0,groß,-102.25,-88.1,Kestrel-Kit (Prototyp),92.1
+Cable (Referenz),cable,prototype_vs_baseline2,Warm-Cache DOMContentLoaded,H2,66.3,,-127.85,-65.9,24.0,0.000000,Ja,0.981,groß,-140.4,-111.4,Kestrel-Kit (Prototyp),194.15
+Cable (Referenz),cable,prototype_vs_baseline2,Warm HTML-Dokument,H1,0.4,,-16.88,-97.7,0.0,0.000000,Ja,1.0,groß,-16.88,-16.87,Kestrel-Kit (Prototyp),17.28
+Cable (Referenz),cable,prototype_vs_baseline2,Warm JS-Payload,H2,0.68,,-1.11,-62.0,425.0,0.000000,Ja,0.66,groß,-1.79,-1.1,Kestrel-Kit (Prototyp),1.79
+Cable (Referenz),cable,prototype_vs_baseline2,Warm API-Payload,H1,16.89,,-2.21,-11.6,3.0,0.000000,Ja,0.998,groß,-2.33,-2.14,Kestrel-Kit (Prototyp),19.1
+4G (Mobil),4g,prototype_vs_baseline,Warm-Cache Payload (gesamt),H1,107.54,39.4,68.14,172.9,2300.0,0.000000,Ja,-0.84,groß,52.92,83.53,Legacy (Baseline 1),
+4G (Mobil),4g,prototype_vs_baseline,Warm-Cache Netzwerk-Payload,H1,107.54,39.4,68.14,172.9,2300.0,0.000000,Ja,-0.84,groß,52.92,83.53,Legacy (Baseline 1),
+4G (Mobil),4g,prototype_vs_baseline,Warm-Cache Requests (gesamt),H1,125.5,94.0,31.5,33.5,2500.0,0.000000,Ja,-1.0,groß,31.0,32.0,Legacy (Baseline 1),
+4G (Mobil),4g,prototype_vs_baseline,Warm-Cache Netzwerk-Requests,H1,119.5,92.0,27.5,29.9,2500.0,0.000000,Ja,-1.0,groß,27.0,28.0,Legacy (Baseline 1),
+4G (Mobil),4g,prototype_vs_baseline,Gecachte Requests,H1,6.0,2.0,4.0,200.0,2500.0,0.000000,Ja,-1.0,groß,4.0,4.0,Kestrel-Kit (Prototyp),
+4G (Mobil),4g,prototype_vs_baseline,Cache-Hit-Rate,H1,4.8,2.1,2.7,128.6,2500.0,0.000000,Ja,-1.0,groß,2.7,2.7,Kestrel-Kit (Prototyp),
+4G (Mobil),4g,prototype_vs_baseline,Payload-Reduktion (Cold→Warm),H1,90.65,95.3,-4.65,-4.9,551.5,0.000001,Ja,0.559,groß,-6.05,-2.45,Legacy (Baseline 1),
+4G (Mobil),4g,prototype_vs_baseline,Warm-Cache Navigationszeit,H1,2405.0,1300.5,1104.5,84.9,2484.0,0.000000,Ja,-0.987,groß,953.5,1548.04,Legacy (Baseline 1),
+4G (Mobil),4g,prototype_vs_baseline,Warm-Cache TTFB,H1,0.1,186.5,-186.4,-99.9,0.0,0.000000,Ja,1.0,groß,-197.4,-178.9,Kestrel-Kit (Prototyp),
+4G (Mobil),4g,prototype_vs_baseline,Warm-Cache DOMContentLoaded,H2,67.45,291.4,-223.95,-76.9,41.0,0.000000,Ja,0.967,groß,-237.35,-200.45,Kestrel-Kit (Prototyp),
+4G (Mobil),4g,prototype_vs_baseline,Warm HTML-Dokument,H1,0.4,18.45,-18.05,-97.8,0.0,0.000000,Ja,1.0,groß,-18.06,-18.04,Kestrel-Kit (Prototyp),
+4G (Mobil),4g,prototype_vs_baseline,Warm JS-Payload,H2,0.68,1.79,-1.11,-62.0,278.0,0.000000,Ja,0.778,groß,-1.99,-1.11,Kestrel-Kit (Prototyp),
+4G (Mobil),4g,prototype_vs_baseline,Warm API-Payload,H1,16.8,19.1,-2.3,-12.0,0.0,0.000000,Ja,1.0,groß,-2.36,-2.23,Kestrel-Kit (Prototyp),
+4G (Mobil),4g,prototype_vs_baseline2,Warm-Cache Payload (gesamt),H1,107.54,,69.3,181.2,2297.0,0.000000,Ja,-0.838,groß,54.3,84.8,Legacy (Baseline 2),38.24
+4G (Mobil),4g,prototype_vs_baseline2,Warm-Cache Netzwerk-Payload,H1,107.54,,69.3,181.2,2297.0,0.000000,Ja,-0.838,groß,54.3,84.8,Legacy (Baseline 2),38.24
+4G (Mobil),4g,prototype_vs_baseline2,Warm-Cache Requests (gesamt),H1,125.5,,29.5,30.7,2500.0,0.000000,Ja,-1.0,groß,29.0,30.0,Legacy (Baseline 2),96.0
+4G (Mobil),4g,prototype_vs_baseline2,Warm-Cache Netzwerk-Requests,H1,119.5,,25.5,27.1,2500.0,0.000000,Ja,-1.0,groß,25.0,26.0,Legacy (Baseline 2),94.0
+4G (Mobil),4g,prototype_vs_baseline2,Gecachte Requests,H1,6.0,,4.0,200.0,2500.0,0.000000,Ja,-1.0,groß,4.0,4.0,Kestrel-Kit (Prototyp),2.0
+4G (Mobil),4g,prototype_vs_baseline2,Cache-Hit-Rate,H1,4.8,,2.7,128.6,2500.0,0.000000,Ja,-1.0,groß,2.7,2.7,Kestrel-Kit (Prototyp),2.1
+4G (Mobil),4g,prototype_vs_baseline2,Payload-Reduktion (Cold→Warm),H1,90.65,,-4.95,-5.2,497.0,0.000000,Ja,0.602,groß,-6.4,-2.75,Legacy (Baseline 2),95.6
+4G (Mobil),4g,prototype_vs_baseline2,Warm-Cache Navigationszeit,H1,2405.0,,1209.5,101.2,2451.5,0.000000,Ja,-0.961,groß,1055.0,1648.5,Legacy (Baseline 2),1195.5
+4G (Mobil),4g,prototype_vs_baseline2,Warm-Cache TTFB,H1,0.1,,-84.65,-99.9,0.0,0.000000,Ja,1.0,groß,-92.55,-79.9,Kestrel-Kit (Prototyp),84.75
+4G (Mobil),4g,prototype_vs_baseline2,Warm-Cache DOMContentLoaded,H2,67.45,,-116.0,-63.2,69.0,0.000000,Ja,0.945,groß,-120.7,-91.9,Kestrel-Kit (Prototyp),183.45
+4G (Mobil),4g,prototype_vs_baseline2,Warm HTML-Dokument,H1,0.4,,-16.9,-97.7,0.0,0.000000,Ja,1.0,groß,-16.91,-16.89,Kestrel-Kit (Prototyp),17.3
+4G (Mobil),4g,prototype_vs_baseline2,Warm JS-Payload,H2,0.68,,-1.13,-62.4,323.0,0.000000,Ja,0.742,groß,-1.81,-1.12,Kestrel-Kit (Prototyp),1.81
+4G (Mobil),4g,prototype_vs_baseline2,Warm API-Payload,H1,16.8,,-2.32,-12.1,0.0,0.000000,Ja,1.0,groß,-2.37,-2.25,Kestrel-Kit (Prototyp),19.12
+Worst-Case (Stress),worst_case,prototype_vs_baseline,Warm-Cache Payload (gesamt),H1,78.71,39.55,39.16,99.0,1884.0,0.000013,Ja,-0.507,groß,15.61,63.66,Legacy (Baseline 1),
+Worst-Case (Stress),worst_case,prototype_vs_baseline,Warm-Cache Netzwerk-Payload,H1,78.71,39.55,39.16,99.0,1884.0,0.000013,Ja,-0.507,groß,15.61,63.66,Legacy (Baseline 1),
+Worst-Case (Stress),worst_case,prototype_vs_baseline,Warm-Cache Requests (gesamt),H1,125.0,94.0,31.0,33.0,2500.0,0.000000,Ja,-1.0,groß,30.5,33.0,Legacy (Baseline 1),
+Worst-Case (Stress),worst_case,prototype_vs_baseline,Warm-Cache Netzwerk-Requests,H1,119.0,92.0,27.0,29.3,2500.0,0.000000,Ja,-1.0,groß,26.0,29.0,Legacy (Baseline 1),
+Worst-Case (Stress),worst_case,prototype_vs_baseline,Gecachte Requests,H1,6.0,2.0,4.0,200.0,2500.0,0.000000,Ja,-1.0,groß,4.0,4.0,Kestrel-Kit (Prototyp),
+Worst-Case (Stress),worst_case,prototype_vs_baseline,Cache-Hit-Rate,H1,4.8,2.1,2.7,128.6,2500.0,0.000000,Ja,-1.0,groß,2.6,2.7,Kestrel-Kit (Prototyp),
+Worst-Case (Stress),worst_case,prototype_vs_baseline,Payload-Reduktion (Cold→Warm),H1,93.45,95.3,-1.85,-1.9,945.5,0.033283,Ja,0.244,klein,-4.0,0.05,Legacy (Baseline 1),
+Worst-Case (Stress),worst_case,prototype_vs_baseline,Warm-Cache Navigationszeit,H1,3304.5,1361.5,1943.0,142.7,2475.0,0.000000,Ja,-0.98,groß,1589.5,2283.0,Legacy (Baseline 1),
+Worst-Case (Stress),worst_case,prototype_vs_baseline,Warm-Cache TTFB,H1,0.0,238.15,-238.15,-100.0,0.0,0.000000,Ja,1.0,groß,-262.95,-225.65,Kestrel-Kit (Prototyp),
+Worst-Case (Stress),worst_case,prototype_vs_baseline,Warm-Cache DOMContentLoaded,H2,85.5,348.0,-262.5,-75.4,16.0,0.000000,Ja,0.987,groß,-299.66,-233.0,Kestrel-Kit (Prototyp),
+Worst-Case (Stress),worst_case,prototype_vs_baseline,Warm HTML-Dokument,H1,0.4,18.48,-18.08,-97.8,0.0,0.000000,Ja,1.0,groß,-18.1,-18.06,Kestrel-Kit (Prototyp),
+Worst-Case (Stress),worst_case,prototype_vs_baseline,Warm JS-Payload,H2,1.37,1.85,-0.48,-26.2,667.0,0.000046,Ja,0.466,mittel,-1.18,0.2,Kestrel-Kit (Prototyp),
+Worst-Case (Stress),worst_case,prototype_vs_baseline,Warm API-Payload,H1,16.9,19.17,-2.28,-11.9,0.0,0.000000,Ja,1.0,groß,-2.41,-2.15,Kestrel-Kit (Prototyp),
+Worst-Case (Stress),worst_case,prototype_vs_baseline2,Warm-Cache Payload (gesamt),H1,78.71,,39.49,100.7,1889.0,0.000011,Ja,-0.511,groß,16.08,64.21,Legacy (Baseline 2),39.22
+Worst-Case (Stress),worst_case,prototype_vs_baseline2,Warm-Cache Netzwerk-Payload,H1,78.71,,39.49,100.7,1889.0,0.000011,Ja,-0.511,groß,16.08,64.21,Legacy (Baseline 2),39.22
+Worst-Case (Stress),worst_case,prototype_vs_baseline2,Warm-Cache Requests (gesamt),H1,125.0,,25.0,25.0,2500.0,0.000000,Ja,-1.0,groß,24.5,27.0,Legacy (Baseline 2),100.0
+Worst-Case (Stress),worst_case,prototype_vs_baseline2,Warm-Cache Netzwerk-Requests,H1,119.0,,23.0,24.0,2500.0,0.000000,Ja,-1.0,groß,22.0,25.0,Legacy (Baseline 2),96.0
+Worst-Case (Stress),worst_case,prototype_vs_baseline2,Gecachte Requests,H1,6.0,,2.0,50.0,2500.0,0.000000,Ja,-1.0,groß,2.0,2.0,Kestrel-Kit (Prototyp),4.0
+Worst-Case (Stress),worst_case,prototype_vs_baseline2,Cache-Hit-Rate,H1,4.8,,0.8,20.0,2500.0,0.000000,Ja,-1.0,groß,0.7,0.8,Kestrel-Kit (Prototyp),4.0
+Worst-Case (Stress),worst_case,prototype_vs_baseline2,Payload-Reduktion (Cold→Warm),H1,93.45,,-2.05,-2.1,872.0,0.008182,Ja,0.302,mittel,-4.2,-0.15,Legacy (Baseline 2),95.5
+Worst-Case (Stress),worst_case,prototype_vs_baseline2,Warm-Cache Navigationszeit,H1,3304.5,,1939.5,142.1,2498.0,0.000000,Ja,-0.998,groß,1598.0,2275.0,Legacy (Baseline 2),1365.0
+Worst-Case (Stress),worst_case,prototype_vs_baseline2,Warm-Cache TTFB,H1,0.0,,-117.4,-100.0,0.0,0.000000,Ja,1.0,groß,-143.25,-107.0,Kestrel-Kit (Prototyp),117.4
+Worst-Case (Stress),worst_case,prototype_vs_baseline2,Warm-Cache DOMContentLoaded,H2,85.5,,-169.75,-66.5,41.0,0.000000,Ja,0.967,groß,-198.2,-140.0,Kestrel-Kit (Prototyp),255.25
+Worst-Case (Stress),worst_case,prototype_vs_baseline2,Warm HTML-Dokument,H1,0.4,,-16.88,-97.7,0.0,0.000000,Ja,1.0,groß,-16.88,-16.87,Kestrel-Kit (Prototyp),17.28
+Worst-Case (Stress),worst_case,prototype_vs_baseline2,Warm JS-Payload,H2,1.37,,-1.17,-46.3,522.0,0.000000,Ja,0.582,groß,-1.85,-0.49,Kestrel-Kit (Prototyp),2.54
+Worst-Case (Stress),worst_case,prototype_vs_baseline2,Warm API-Payload,H1,16.9,,-2.53,-13.0,0.0,0.000000,Ja,1.0,groß,-2.66,-2.4,Kestrel-Kit (Prototyp),19.42

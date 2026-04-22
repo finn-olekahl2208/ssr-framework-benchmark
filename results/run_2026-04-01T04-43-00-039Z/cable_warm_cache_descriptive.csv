@@ -1,0 +1,14 @@
+Profil,ProfilKey,Metrik,Einheit,Hypothese,Kestrel-Kit (Prototyp) n,Kestrel-Kit (Prototyp) Median,Kestrel-Kit (Prototyp) IQR,Kestrel-Kit (Prototyp) Mean,Kestrel-Kit (Prototyp) SD,Kestrel-Kit (Prototyp) Min,Kestrel-Kit (Prototyp) Max,Kestrel-Kit (Prototyp) CV%,Legacy (Baseline 1) n,Legacy (Baseline 1) Median,Legacy (Baseline 1) IQR,Legacy (Baseline 1) Mean,Legacy (Baseline 1) SD,Legacy (Baseline 1) Min,Legacy (Baseline 1) Max,Legacy (Baseline 1) CV%,Legacy (Baseline 2) n,Legacy (Baseline 2) Median,Legacy (Baseline 2) IQR,Legacy (Baseline 2) Mean,Legacy (Baseline 2) SD,Legacy (Baseline 2) Min,Legacy (Baseline 2) Max,Legacy (Baseline 2) CV%
+Cable (Referenz),cable,Warm-Cache Payload (gesamt),KB,H1,50,91.84,112.84,137.74,113.37,14.37,450.64,82.3,50,40.92,4.68,42.01,2.68,39.32,52.7,6.4,50,38.58,2.4,39.63,2.06,38.13,46.47,5.2
+Cable (Referenz),cable,Warm-Cache Netzwerk-Payload,KB,H1,50,91.84,112.84,137.74,113.37,14.37,450.64,82.3,50,40.92,4.68,42.01,2.68,39.32,52.7,6.4,50,38.58,2.4,39.63,2.06,38.13,46.47,5.2
+Cable (Referenz),cable,Warm-Cache Requests (gesamt),,H1,50,125.5,6.0,126.82,5.1,120.0,144.0,4.0,50,94.0,1.0,94.58,0.76,94.0,98.0,0.8,50,96.0,0.75,96.26,0.44,96.0,97.0,0.5
+Cable (Referenz),cable,Warm-Cache Netzwerk-Requests,,H1,50,119.5,6.0,120.82,5.1,114.0,138.0,4.2,50,92.0,1.0,92.58,0.76,92.0,96.0,0.8,50,94.0,0.75,94.26,0.44,94.0,95.0,0.5
+Cable (Referenz),cable,Gecachte Requests,,H1,50,6.0,0.0,6.0,0.0,6.0,6.0,0.0,50,2.0,0.0,2.0,0.0,2.0,2.0,0.0,50,2.0,0.0,2.0,0.0,2.0,2.0,0.0
+Cable (Referenz),cable,Cache-Hit-Rate,%,H1,50,4.8,0.2,4.75,0.18,4.2,5.0,3.7,50,2.1,0.0,2.1,0.01,2.0,2.1,0.7,50,2.1,0.0,2.1,0.0,2.1,2.1,0.0
+Cable (Referenz),cable,Payload-Reduktion (Cold→Warm),%,H1,50,92.2,10.88,88.38,9.75,61.5,98.8,11.0,50,95.1,0.58,94.97,0.33,93.6,95.3,0.4,50,95.5,0.27,95.4,0.24,94.6,95.6,0.3
+Cable (Referenz),cable,Warm-Cache Navigationszeit,ms,H1,50,2813.5,809.75,2803.94,723.09,1367.0,5116.0,25.8,50,1323.5,81.75,1399.04,290.89,1256.0,3218.0,20.8,50,1206.5,64.75,1225.72,63.96,1098.0,1438.0,5.2
+Cable (Referenz),cable,Warm-Cache TTFB,ms,H1,50,0.05,0.1,0.05,0.05,0.0,0.1,101.0,50,195.25,45.78,218.88,92.78,163.0,680.2,42.4,50,92.1,32.95,107.32,43.82,67.1,320.5,40.8
+Cable (Referenz),cable,Warm-Cache DOMContentLoaded,ms,H2,50,66.3,28.9,82.06,28.1,57.8,190.4,34.2,50,301.4,49.4,328.44,98.44,248.5,761.2,30.0,50,194.15,56.43,211.62,53.69,148.1,429.3,25.4
+Cable (Referenz),cable,Warm HTML-Dokument,KB,H1,50,0.4,0.07,0.42,0.03,0.4,0.47,7.7,50,18.45,0.07,18.45,0.04,18.4,18.52,0.2,50,17.28,0.03,17.29,0.03,17.24,17.35,0.2
+Cable (Referenz),cable,Warm JS-Payload,KB,H2,50,0.68,1.37,0.97,1.32,0.0,5.48,135.9,50,2.33,0.69,2.25,0.48,1.79,3.57,21.5,50,1.79,0.68,2.18,0.74,1.78,5.89,34.1
+Cable (Referenz),cable,Warm API-Payload,KB,H1,50,16.89,0.36,16.8,0.87,11.18,17.9,5.2,50,19.1,0.01,19.11,0.04,19.1,19.35,0.2,50,19.1,0.0,19.06,0.25,17.34,19.15,1.3
